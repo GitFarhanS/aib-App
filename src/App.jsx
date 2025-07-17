@@ -25,7 +25,7 @@ function HomePage() {
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
                   <span className="text-white font-bold text-lg">AI</span>
                 </div>
-                <h1 className="text-2xl font-bold gradient-text">AIB Solutions</h1>
+                <h1 className="text-2xl font-bold gradient-text">SynShaikh</h1>
               </div>
             </div>
             <div className="flex items-center space-x-6">
@@ -49,9 +49,9 @@ function HomePage() {
           <div className="text-center">
             <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
-                Enterprise AI
+                SynShaikh
                 <br />
-                <span className="gradient-text">Made Simple</span>
+                <span className="gradient-text">AI Solutions</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
                 Deploy custom AI models on-premises with enterprise-grade security, 
@@ -78,8 +78,8 @@ function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-5xl font-bold text-gray-900 mb-6">
-              Why Choose Our
-              <span className="gradient-text"> AI Platform?</span>
+              Why Choose
+              <span className="gradient-text"> SynShaikh?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Built for enterprises that demand security, privacy, and performance
@@ -270,7 +270,7 @@ function HomePage() {
               <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent"> Started?</span>
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Let's discuss how AIB Solutions can transform your enterprise with secure, on-premises AI
+              Let's discuss how SynShaikh can transform your enterprise with secure, on-premises AI
             </p>
           </div>
           

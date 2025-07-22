@@ -312,7 +312,7 @@ function Estimate() {
               {estimatedCost ? (
                 <div className="bg-gradient-to-br from-blue-600 to-indigo-600 rounded-3xl p-8 text-white">
                   <div className="text-center mb-8">
-                    <div className="text-6xl font-bold mb-4">${estimatedCost.toLocaleString()}</div>
+                    <div className="text-6xl font-bold mb-4">£{estimatedCost.toLocaleString()}</div>
                     <p className="text-xl text-blue-100">Estimated Total Cost</p>
                   </div>
                   
@@ -367,17 +367,17 @@ function Estimate() {
                 <div className="space-y-4">
                   <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 transition-all duration-300">
                     <h4 className="font-bold text-lg text-gray-900 mb-2">Starter Package</h4>
-                    <p className="text-3xl font-bold text-blue-600 mb-2">$25K - $75K</p>
+                    <p className="text-3xl font-bold text-blue-600 mb-2">£25K - £75K</p>
                     <p className="text-gray-600">Perfect for startups and small businesses</p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 transition-all duration-300">
                     <h4 className="font-bold text-lg text-gray-900 mb-2">Professional Package</h4>
-                    <p className="text-3xl font-bold text-blue-600 mb-2">$75K - $250K</p>
+                    <p className="text-3xl font-bold text-blue-600 mb-2">£75K - £250K</p>
                     <p className="text-gray-600">Ideal for growing businesses</p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 transition-all duration-300">
                     <h4 className="font-bold text-lg text-gray-900 mb-2">Enterprise Package</h4>
-                    <p className="text-3xl font-bold text-blue-600 mb-2">$250K+</p>
+                    <p className="text-3xl font-bold text-blue-600 mb-2">£250K+</p>
                     <p className="text-gray-600">For large enterprises with complex needs</p>
                   </div>
                 </div>

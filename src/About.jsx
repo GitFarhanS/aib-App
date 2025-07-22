@@ -19,7 +19,7 @@ function About() {
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
                   <span className="text-white font-bold text-lg">AI</span>
                 </div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">SynShaikh</h1>
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Corexa</h1>
               </div>
             </div>
             <div className="flex items-center space-x-6">
@@ -44,7 +44,7 @@ function About() {
               <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
                 About
                 <br />
-                <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">SynShaikh</span>
+                <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Corexa</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
                 Pioneering the future of enterprise AI with secure, on-premises solutions
@@ -67,7 +67,7 @@ function About() {
                 We believe that every enterprise deserves access to powerful AI capabilities without compromising on security, privacy, or control. Our mission is to democratize enterprise AI by making it accessible, secure, and deployable on your own infrastructure.
               </p>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Founded by a team of AI researchers and enterprise security experts, SynShaikh bridges the gap between cutting-edge AI technology and enterprise-grade security requirements.
+                Founded by a team of AI researchers and enterprise security experts, Corexa bridges the gap between cutting-edge AI technology and enterprise-grade security requirements.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/estimate" className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center">
@@ -198,7 +198,7 @@ function About() {
               <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent"> Started?</span>
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Let's discuss how SynShaikh can transform your enterprise with secure, on-premises AI
+              Let's discuss how Corexa can transform your enterprise with secure, on-premises AI
             </p>
           </div>
           

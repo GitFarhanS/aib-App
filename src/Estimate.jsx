@@ -144,7 +144,7 @@ function Estimate() {
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
                   <span className="text-white font-bold text-lg">AI</span>
                 </div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">SynShaikh</h1>
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Corexa</h1>
               </div>
             </div>
             <div className="flex items-center space-x-6">
@@ -172,7 +172,7 @@ function Estimate() {
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">AI Estimate</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Get a personalized cost estimate for your enterprise AI solution
+                Get a personalised cost estimate for your enterprise AI solution
               </p>
             </div>
           </div>
@@ -355,7 +355,7 @@ function Estimate() {
                   <div className="text-6xl mb-4">💰</div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Get Your Estimate</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Fill out the form to receive a personalized cost estimate for your AI solution. 
+                    Fill out the form to receive a personalised cost estimate for your AI solution. 
                     Our estimates include development, deployment, and ongoing support.
                   </p>
                 </div>

@@ -1,4 +1,4 @@
-# SynShaikh - Enterprise AI Platform
+# Corexa - Enterprise AI Platform
 
 A modern, responsive web application showcasing enterprise AI solutions with secure, on-premises deployment capabilities. Built with React, Tailwind CSS, and Vite.
 
@@ -192,4 +192,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**SynShaikh** - Enterprise AI Made Simple
+**Corexa** - Enterprise AI Made Simple

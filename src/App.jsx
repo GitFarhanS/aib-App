@@ -198,62 +198,60 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* AI Models Section */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-5xl font-bold text-gray-900 mb-6">
-              What Our
-              <span className="gradient-text"> Clients Say</span>
+              AI Models We
+              <span className="gradient-text"> Can Run</span>
             </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Deploy and run state-of-the-art AI models on your infrastructure
+            </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card group">
-              <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
-                  JD
-                </div>
-                <div>
-                  <h4 className="font-bold text-gray-900 text-lg">John Davis</h4>
-                  <p className="text-sm text-gray-600">CTO, TechCorp</p>
-                </div>
+              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
+                <span className="text-blue-600">🤖</span>
               </div>
+              <h4 className="font-bold text-gray-900 text-lg mb-3">Large Language Models</h4>
               <p className="text-gray-600 leading-relaxed text-lg">
-                "The on-premises deployment was seamless. Our data stays secure, 
-                and the custom models have improved our efficiency by 40%."
+                GPT, LLaMA, Claude, and custom fine-tuned models for text generation, 
+                summarization, and conversational AI applications.
               </p>
             </div>
             
             <div className="card group">
-              <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
-                  SM
-                </div>
-                <div>
-                  <h4 className="font-bold text-gray-900 text-lg">Sarah Miller</h4>
-                  <p className="text-sm text-gray-600">VP Engineering, DataFlow</p>
-                </div>
+              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
+                <span className="text-blue-600">👁️</span>
               </div>
+              <h4 className="font-bold text-gray-900 text-lg mb-3">Computer Vision Models</h4>
               <p className="text-gray-600 leading-relaxed text-lg">
-                "Full data privacy was our top priority. This solution gives us 
-                enterprise AI capabilities without compromising security."
+                YOLO, ResNet, Vision Transformers for image classification, object 
+                detection, and computer vision tasks.
               </p>
             </div>
             
             <div className="card group">
-              <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
-                  RJ
-                </div>
-                <div>
-                  <h4 className="font-bold text-gray-900 text-lg">Robert Johnson</h4>
-                  <p className="text-sm text-gray-600">CEO, SecureNet</p>
-                </div>
+              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
+                <span className="text-blue-600">📊</span>
               </div>
+              <h4 className="font-bold text-gray-900 text-lg mb-3">Predictive Analytics</h4>
               <p className="text-gray-600 leading-relaxed text-lg">
-                "The custom model training exceeded our expectations. We now have 
-                AI solutions perfectly tailored to our business processes."
+                Time series forecasting, regression models, and ML algorithms for 
+                business intelligence and predictive insights.
+              </p>
+            </div>
+          </div>
+          
+          <div className="mt-12 text-center">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 inline-block">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Model Development</h3>
+              <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                We can also develop and deploy custom AI models tailored to your specific 
+                business requirements, trained on your proprietary data.
               </p>
             </div>
           </div>

@@ -32,7 +32,7 @@ function Estimate() {
     // Base cost by company size
     switch (formData.companySize) {
       case 'startup':
-        baseCost = 25000
+        baseCost = 5000
         break
       case 'small':
         baseCost = 50000
@@ -44,7 +44,7 @@ function Estimate() {
         baseCost = 250000
         break
       case 'enterprise':
-        baseCost = 500000
+        baseCost = 100000
         break
       default:
         baseCost = 50000
@@ -367,17 +367,17 @@ function Estimate() {
                 <div className="space-y-4">
                   <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 transition-all duration-300">
                     <h4 className="font-bold text-lg text-gray-900 mb-2">Starter Package</h4>
-                    <p className="text-3xl font-bold text-blue-600 mb-2">£25K - £75K</p>
+                    <p className="text-3xl font-bold text-blue-600 mb-2">£5K - £50K</p>
                     <p className="text-gray-600">Perfect for startups and small businesses</p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 transition-all duration-300">
                     <h4 className="font-bold text-lg text-gray-900 mb-2">Professional Package</h4>
-                    <p className="text-3xl font-bold text-blue-600 mb-2">£75K - £250K</p>
+                    <p className="text-3xl font-bold text-blue-600 mb-2">£50K - £200K</p>
                     <p className="text-gray-600">Ideal for growing businesses</p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 transition-all duration-300">
                     <h4 className="font-bold text-lg text-gray-900 mb-2">Enterprise Package</h4>
-                    <p className="text-3xl font-bold text-blue-600 mb-2">£250K+</p>
+                    <p className="text-3xl font-bold text-blue-600 mb-2">£100K+</p>
                     <p className="text-gray-600">For large enterprises with complex needs</p>
                   </div>
                 </div>

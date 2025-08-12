@@ -7,6 +7,7 @@ import flash from './assets/icon/flash.png';
 import CorexaLogo from './assets/Corexa_logo.png';
 import About from './About'
 import Estimate from './Estimate'
+import Deck from './Deck'
 
 function HomePage() {
   const [isVisible, setIsVisible] = useState(false)
@@ -323,6 +324,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/estimate" element={<Estimate />} />
+        <Route path="/deck" element={<Deck />} />
       </Routes>
     </Router>
   )

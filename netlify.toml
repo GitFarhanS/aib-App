@@ -2,26 +2,20 @@
   publish = "dist"
   command = "npm run build"
 
-# Handle deck subdomain - redirect to deck page
+# Handle deck subdomain - serve the React app and let React Router handle routing
 [[redirects]]
   from = "https://deck.corexa.uk"
-  to = "/deck"
+  to = "/index.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "https://deck.corexa.uk/*"
-  to = "/deck"
+  to = "/index.html"
   status = 200
   force = true
 
-# Your existing deck routes for main domain
-[[redirects]]
-  from = "/deck/*"
-  to = "/deck"
-  status = 200
-
-# Fallback for main domain
+# Serve React app for all routes (SPA fallback)
 [[redirects]]
   from = "/*"
   to = "/index.html"

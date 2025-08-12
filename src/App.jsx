@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import locked from './assets/locked.png';
-import shield from './assets/shield.png';
-import wrench from './assets/wrench.png';
-import flash from './assets/flash.png';
+import locked from './assets/icon/locked.png';
+import shield from './assets/icon/shield.png';
+import wrench from './assets/icon/wrench.png';
+import flash from './assets/icon/flash.png';
 import CorexaLogo from './assets/Corexa_logo.png';
 import About from './About'
 import Estimate from './Estimate'

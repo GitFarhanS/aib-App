@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import CorexaLogo from './assets/Corexa_logo.png'
 
 function Estimate() {
   const [isVisible, setIsVisible] = useState(false)
@@ -141,9 +142,7 @@ function Estimate() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">AI</span>
-                </div>
+                <img src={CorexaLogo} alt="Corexa Logo" className="w-10 h-10 rounded-xl object-cover" />
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Corexa</h1>
               </div>
             </div>

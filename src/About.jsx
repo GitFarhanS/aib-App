@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import CorexaLogo from './assets/Corexa_logo.png'
 
 function About() {
   const [isVisible, setIsVisible] = useState(false)
@@ -16,9 +17,7 @@ function About() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">AI</span>
-                </div>
+                              <img src={CorexaLogo} alt="Corexa Logo" className="w-10 h-10 rounded-xl object-cover" />
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Corexa</h1>
               </div>
             </div>
@@ -132,8 +131,8 @@ function About() {
               <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-6">
                 F
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Founder & CEO</h3>
-              <p className="text-blue-600 font-semibold text-center mb-4">Corexa</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Founder</h3>
+              <p className="text-blue-600 font-semibold text-center mb-4">Farhan Shaikh</p>
               <p className="text-gray-600 text-center leading-relaxed">
                 Building secure, on-premises AI systems for enterprises. Open to conversations with pre-seed investors and strategic partners.
               </p>

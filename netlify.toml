@@ -1,24 +1,3 @@
 [build]
   publish = "dist"
   command = "npm run build"
-
-# Handle deck subdomain - but exclude assets
-[[redirects]]
-  from = "https://deck.corexa.uk"
-  to = "/index.html"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "https://deck.corexa.uk/*"
-  to = "/index.html"
-  status = 200
-  force = true
-  conditions = {Role = ["!asset"]}
-
-# SPA fallback - exclude assets
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  conditions = {Role = ["!asset"]}

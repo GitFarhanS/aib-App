@@ -23,7 +23,7 @@ function HomePage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <div className="flex items-center space-x-2">
-                <img src={CorexaLogo} alt="Corexa Logo" className="w-10 h-10 rounded-xl object-cover" />
+                <img src={CorexaLogo} alt="Corexa Logo" className="w-10 h-10 object-contain" />
                 <h1 className="text-2xl font-bold gradient-text">Corexa</h1>
               </div>
             </div>

@@ -321,7 +321,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={isDeckSubdomain ? <Navigate to="/deck" replace /> : <HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/estimate" element={<Estimate />} />
         <Route path="/deck" element={<Deck />} />

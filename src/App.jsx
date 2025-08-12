@@ -4,7 +4,7 @@ import locked from './assets/icon/locked.png';
 import shield from './assets/icon/shield.png';
 import wrench from './assets/icon/wrench.png';
 import flash from './assets/icon/flash.png';
-import CorexaLogo from './Corexa_logo.png';
+import CorexaLogo from '/Corexa_logo.png';
 import About from './About'
 import Estimate from './Estimate'
 import Deck from './Deck'

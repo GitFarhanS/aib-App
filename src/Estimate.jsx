@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import CorexaLogo from './Corexa_logo.png'
+import CorexaLogo from '/Corexa_logo.png'
 
 function Estimate() {
   const [isVisible, setIsVisible] = useState(false)

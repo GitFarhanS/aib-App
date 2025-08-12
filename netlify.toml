@@ -2,7 +2,7 @@
   publish = "dist"
   command = "npm run build"
 
-# Handle deck subdomain - serve the React app and let React Router handle routing
+# Handle deck subdomain - but exclude assets
 [[redirects]]
   from = "https://deck.corexa.uk"
   to = "/index.html"
@@ -14,9 +14,11 @@
   to = "/index.html"
   status = 200
   force = true
+  conditions = {Role = ["!asset"]}
 
-# Serve React app for all routes (SPA fallback)
+# SPA fallback - exclude assets
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  conditions = {Role = ["!asset"]}

@@ -318,6 +318,8 @@ function HomePage() {
 }
 
 function App() {
+  // Check if we're on the deck subdomain
+  const isDeckSubdomain = window.location.hostname === 'deck.corexa.uk';
   return (
     <Router>
       <Routes>

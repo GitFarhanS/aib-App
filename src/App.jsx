@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom'
 import locked from './assets/icon/locked.png';
 import shield from './assets/icon/shield.png';
 import wrench from './assets/icon/wrench.png';

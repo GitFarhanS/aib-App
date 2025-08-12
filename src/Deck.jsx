@@ -91,7 +91,7 @@ function Deck() {
             
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">£500K</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">£300K</div>
                 <p className="text-gray-600">Target Raise</p>
               </div>
               <div className="text-center">
@@ -99,7 +99,7 @@ function Deck() {
                 <p className="text-gray-600">Months Runway</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">20%</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">15%</div>
                 <p className="text-gray-600">Equity Available</p>
               </div>
             </div>

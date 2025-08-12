@@ -2,11 +2,26 @@
   publish = "dist"
   command = "npm run build"
 
+# Handle deck subdomain - redirect to deck page
+[[redirects]]
+  from = "https://deck.corexa.uk"
+  to = "/deck"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://deck.corexa.uk/*"
+  to = "/deck"
+  status = 200
+  force = true
+
+# Your existing deck routes for main domain
 [[redirects]]
   from = "/deck/*"
   to = "/deck"
   status = 200
 
+# Fallback for main domain
 [[redirects]]
   from = "/*"
   to = "/index.html"

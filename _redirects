@@ -1,6 +1,1 @@
-# Handle deck subdomain
-https://deck.corexa.uk/* /index.html 200
-https://deck.corexa.uk /index.html 200
-
-# SPA fallback for main domain
 /* /index.html 200

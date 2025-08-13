@@ -213,9 +213,6 @@ function HomePage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card group">
-              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
-                <span className="text-blue-600">🤖</span>
-              </div>
               <h4 className="font-bold text-gray-900 text-lg mb-3">Large Language Models</h4>
               <p className="text-gray-600 leading-relaxed text-lg">
                 GPT, LLaMA, Claude, and custom fine-tuned models for text generation, 
@@ -224,9 +221,6 @@ function HomePage() {
             </div>
             
             <div className="card group">
-              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
-                <span className="text-blue-600">👁️</span>
-              </div>
               <h4 className="font-bold text-gray-900 text-lg mb-3">Computer Vision Models</h4>
               <p className="text-gray-600 leading-relaxed text-lg">
                 YOLO, ResNet, Vision Transformers for image classification, object 
@@ -235,9 +229,6 @@ function HomePage() {
             </div>
             
             <div className="card group">
-              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
-                <span className="text-blue-600">📊</span>
-              </div>
               <h4 className="font-bold text-gray-900 text-lg mb-3">Predictive Analytics</h4>
               <p className="text-gray-600 leading-relaxed text-lg">
                 Time series forecasting, regression models, and ML algorithms for 

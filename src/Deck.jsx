@@ -24,6 +24,7 @@ function Deck() {
             <div className="flex items-center space-x-6">
               <a href="https://corexa.uk" className="text-gray-600 hover:text-blue-600 transition-colors duration-200" > Home </a>
               <Link to="/about" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">About</Link>
+              <Link to="/concept" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Concept</Link>
               <Link to="/estimate" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Get Estimate</Link>
               <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Contact</a>
             </div>

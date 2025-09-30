@@ -7,7 +7,6 @@ import flash from './assets/icon/flash.png';
 import CorexaLogo from '/Corexa_logo.png';
 import About from './About'
 import Estimate from './Estimate'
-import Deck from './Deck'
 import Concept from './Concept'
 
 function HomePage() {
@@ -311,15 +310,12 @@ function HomePage() {
 }
 
 function App() {
-  const isDeckSubdomain = window.location.hostname === 'deck.corexa.uk';
-
   return (
     <Router>
       <Routes>
-        <Route path="/" element={isDeckSubdomain ? <Deck /> : <HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/estimate" element={<Estimate />} />
-        <Route path="/deck" element={<Deck />} />
         <Route path="/concept" element={<Concept />} />
       </Routes>
     </Router>

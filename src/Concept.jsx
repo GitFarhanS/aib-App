@@ -25,7 +25,6 @@ function Concept() {
               <Link to="/" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Home</Link>
               <Link to="/about" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">About</Link>
               <Link to="/estimate" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Get Estimate</Link>
-              <Link to="/deck" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Pitch Deck</Link>
               <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Contact</a>
             </div>
           </div>
@@ -128,16 +127,16 @@ function Concept() {
               <div className="space-y-6">
                 <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-4 rounded-xl text-center">
                   <div className="font-bold text-lg">Customer Network</div>
-                </div>
-                
+        </div>
+        
                 <div className="flex justify-center">
                   <div className="w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-gray-600"></div>
-                </div>
+                    </div>
                 
                 <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-4 rounded-xl text-center">
                   <div className="font-bold text-lg">Corexa AI Unit</div>
                   <div className="text-green-100 text-sm">192.168.1.100</div>
-                </div>
+                    </div>
                 
                 <div className="flex justify-center">
                   <div className="w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-gray-600"></div>
@@ -152,14 +151,14 @@ function Concept() {
                   </div>
                   <div className="bg-gray-200 border-2 border-gray-400 p-3 rounded-lg text-center font-bold text-gray-700">
                     Mobile Devices
-                  </div>
+                    </div>
                   <div className="bg-gray-200 border-2 border-gray-400 p-3 rounded-lg text-center font-bold text-gray-700">
                     Legacy Systems
                   </div>
                 </div>
-              </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
       </section>
 
@@ -174,8 +173,8 @@ function Concept() {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Intuitive control panel for managing AI models and system performance
             </p>
-          </div>
-          
+                    </div>
+                    
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Main Dashboard */}
             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
@@ -209,36 +208,36 @@ function Concept() {
                   <div className="space-y-4">
                     <div>
                       <div className="flex justify-between text-sm text-gray-300 mb-2">
-                        <span>GPU Utilization</span>
-                        <span>75%</span>
-                      </div>
+                                <span>GPU Utilization</span>
+                                <span>75%</span>
+                            </div>
                       <div className="w-full bg-gray-700 rounded-full h-2">
                         <div className="bg-green-500 h-2 rounded-full" style={{width: '75%'}}></div>
                       </div>
-                    </div>
-                    
+                            </div>
+                            
                     <div>
                       <div className="flex justify-between text-sm text-gray-300 mb-2">
-                        <span>CPU Usage</span>
-                        <span>45%</span>
-                      </div>
+                                <span>CPU Usage</span>
+                                <span>45%</span>
+                            </div>
                       <div className="w-full bg-gray-700 rounded-full h-2">
                         <div className="bg-red-500 h-2 rounded-full" style={{width: '45%'}}></div>
                       </div>
-                    </div>
-                    
+                            </div>
+                            
                     <div>
                       <div className="flex justify-between text-sm text-gray-300 mb-2">
-                        <span>Memory Usage</span>
-                        <span>60%</span>
-                      </div>
+                                <span>Memory Usage</span>
+                                <span>60%</span>
+                            </div>
                       <div className="w-full bg-gray-700 rounded-full h-2">
                         <div className="bg-yellow-500 h-2 rounded-full" style={{width: '60%'}}></div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                
+                            </div>
+                        </div>
+                        
                 <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
                   <h4 className="text-blue-400 font-bold text-lg mb-4">Active Models</h4>
                   
@@ -249,30 +248,30 @@ function Concept() {
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
                       <div className="bg-purple-500 h-2 rounded-full" style={{width: '90%'}}></div>
-                    </div>
+                            </div>
                     
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-gray-300">Document Processing</span>
                       <span className="text-green-400 text-xs">Running</span>
-                    </div>
+                            </div>
                     
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-gray-300">Customer Support Bot</span>
                       <span className="text-yellow-400 text-xs">Training</span>
-                    </div>
-                  </div>
-                </div>
-                
+                            </div>
+                            </div>
+                        </div>
+                        
                 <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
                   <h4 className="text-blue-400 font-bold text-lg mb-4">Recent Activity</h4>
                   <div className="text-sm text-gray-300 space-y-2">
-                    <div>• Model inference: 1,247 requests today</div>
-                    <div>• Training completed: Legal docs model</div>
-                    <div>• System health check: All systems OK</div>
-                    <div>• Data backup: Completed 2 hours ago</div>
-                  </div>
-                </div>
-                
+                                <div>• Model inference: 1,247 requests today</div>
+                                <div>• Training completed: Legal docs model</div>
+                                <div>• System health check: All systems OK</div>
+                                <div>• Data backup: Completed 2 hours ago</div>
+                            </div>
+                        </div>
+                        
                 <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
                   <h4 className="text-blue-400 font-bold text-lg mb-4">Quick Actions</h4>
                   <div className="space-y-3">
@@ -285,11 +284,11 @@ function Concept() {
                     <button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg text-sm transition-colors">
                       Export Analytics
                     </button>
-                  </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            
+                
             {/* Model Management Interface */}
             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
               <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-6 text-white">
@@ -303,78 +302,78 @@ function Concept() {
                     <span className="font-bold text-lg">Model Management</span>
                   </div>
                 </div>
-              </div>
-              
+                    </div>
+                    
               <div className="p-8">
                 <div className="flex justify-between items-center mb-6">
                   <h4 className="text-blue-600 font-bold text-xl">Available Models</h4>
                   <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors">
                     + Add Model
                   </button>
-                </div>
-                
+                        </div>
+                        
                 <div className="space-y-4">
                   <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
                     <div className="flex justify-between items-center">
-                      <div>
+                                    <div>
                         <h5 className="text-blue-600 font-bold mb-2">Financial Document Analysis</h5>
                         <div className="text-sm text-gray-600">
-                          Based on Llama 3.1 • Trained on 50k documents • 87% accuracy
-                        </div>
-                      </div>
+                                            Based on Llama 3.1 • Trained on 50k documents • 87% accuracy
+                                        </div>
+                                    </div>
                       <div className="flex items-center space-x-3">
                         <span className="bg-green-500 text-white px-3 py-1 rounded-full text-xs">Active</span>
                         <button className="border border-blue-600 text-blue-600 px-3 py-1 rounded-lg text-xs hover:bg-blue-50 transition-colors">
                           Configure
                         </button>
-                      </div>
-                    </div>
-                  </div>
-                  
+                                    </div>
+                                </div>
+                            </div>
+                            
                   <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
                     <div className="flex justify-between items-center">
-                      <div>
+                                    <div>
                         <h5 className="text-blue-600 font-bold mb-2">Customer Support Chatbot</h5>
                         <div className="text-sm text-gray-600">
-                          Based on Mistral 7B • Custom fine-tuned • 92% satisfaction
-                        </div>
-                      </div>
+                                            Based on Mistral 7B • Custom fine-tuned • 92% satisfaction
+                                        </div>
+                                    </div>
                       <div className="flex items-center space-x-3">
                         <span className="bg-yellow-500 text-white px-3 py-1 rounded-full text-xs">Training</span>
                         <button className="border border-blue-600 text-blue-600 px-3 py-1 rounded-lg text-xs hover:bg-blue-50 transition-colors">
                           Monitor
                         </button>
-                      </div>
-                    </div>
-                  </div>
-                  
+                                    </div>
+                                </div>
+                            </div>
+                            
                   <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
                     <div className="flex justify-between items-center">
-                      <div>
+                                    <div>
                         <h5 className="text-blue-600 font-bold mb-2">Legal Contract Review</h5>
                         <div className="text-sm text-gray-600">
-                          Based on GPT-4 Alternative • Compliance ready • 95% accuracy
-                        </div>
-                      </div>
+                                            Based on GPT-4 Alternative • Compliance ready • 95% accuracy
+                                        </div>
+                                    </div>
                       <div className="flex items-center space-x-3">
                         <span className="bg-red-500 text-white px-3 py-1 rounded-full text-xs">Stopped</span>
                         <button className="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded-lg text-xs transition-colors">
                           Start
                         </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                 <div className="mt-8 p-6 bg-gray-50 border-2 border-dashed border-gray-300 rounded-xl text-center">
                   <div className="text-blue-600 text-lg mb-2">📁 Drop training data here</div>
                   <div className="text-sm text-gray-600">
                     Upload CSV, JSON, or TXT files to start training a new model
-                  </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
+    </div>
         </div>
       </section>
 

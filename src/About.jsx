@@ -114,55 +114,6 @@ function About() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-32 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="text-5xl font-bold text-gray-900 mb-6">
-              Our
-              <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent"> Team</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Experts in AI, security, and enterprise solutions
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-6">
-                DR
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Dr. Rachel Chen</h3>
-              <p className="text-blue-600 font-semibold text-center mb-4">Chief AI Officer</p>
-              <p className="text-gray-600 text-center leading-relaxed">
-                Former research lead at OpenAI with 15+ years in machine learning and neural networks.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-6">
-                MK
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Michael Kim</h3>
-              <p className="text-blue-600 font-semibold text-center mb-4">Chief Security Officer</p>
-              <p className="text-gray-600 text-center leading-relaxed">
-                Ex-NSA cybersecurity expert specializing in enterprise security and data protection.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-6">
-                SP
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Sarah Patel</h3>
-              <p className="text-blue-600 font-semibold text-center mb-4">VP of Engineering</p>
-              <p className="text-gray-600 text-center leading-relaxed">
-                Led engineering teams at Google and Microsoft, expert in scalable enterprise systems.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Stats Section */}
       <section className="py-32 bg-white">
